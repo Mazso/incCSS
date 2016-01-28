@@ -20,7 +20,8 @@ Performance-Gewinn durch intelligentes Laden der CSS-Ressourcen
 
 - Snippet incCSS anlegen
 - in den ungecacheten head-Bereich Aufruf nach folgendem Muster einfügen 
-      [[incCSS? &cssPath=`client/css/` &cssFast=`1.dev.css` &cssComplete=`2.dev.css`]]
+    
+    [[incCSS? &cssPath=`client/css/` &cssFast=`1.dev.css` &cssComplete=`2.dev.css`]]
 
 
 ## Parameter
@@ -29,6 +30,6 @@ Performance-Gewinn durch intelligentes Laden der CSS-Ressourcen
 * &cssFast = gekürzte CSS-Datei
 * &cssComplete = komplette CSS-Datei
 
-**Wichtig:** Die CSS-Datei muss nach dem Muster __meine-datei.dev.css__ oder meine-datei.min.css benannt werden.
+**Wichtig:** Die CSS-Dateien *müssen* nach dem Muster `meine-datei.dev.css` oder `meine-datei.min.css` benannt werden.
 
 Und am Ende nicht vergessen, CSS und JavaScript zu komprimieren
