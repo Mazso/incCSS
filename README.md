@@ -1,3 +1,3 @@
 # incCSS
 
-Snippet für MODx2 - bindet CSS beim ersen Aufruf asynchron ein
+Snippet für MODx2 - bindet CSS beim ersten Aufruf asynchron ein
